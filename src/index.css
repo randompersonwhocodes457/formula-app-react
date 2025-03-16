@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* GENERAL */
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.page{
+   text-align: center;
+   margin-top: 0;
+   border: none;
+}
+
+input[type="number"]{
+    border: none;
+    border-bottom: solid grey 1px;
+    text-align: center;
+    padding: 0;
+    max-width: 300px;
+    min-width: 40px;
+    width: 40px;
+    font-family: inherit;
+    font-size: large;
+}
+input[type="number"]:focus{
+    all: inherit;
+    max-width: 300px;
+    min-width: 40px;
+    border-bottom: solid grey 3px;
+    width: 40px;
+    display: inline;
+    font-family: inherit;
+    font-size: large;
+}
+
+
+select, select:focus{
+    all: unset;
+    border: solid grey 1px;
+    display: inline;
+    padding: 4px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.container{
+    min-width: 400px;
+    max-width: 500px;
+    border: solid black 2px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+#error{
+    padding: 12px;
+    color: rgb(196, 4, 4);
+    font-family: monospace;
+    font-weight: bold;
+    border: dashed red 2px;
+    display: block;
+    margin: 20px 0;
+}
+
+.values{
+    display: flex;
+    justify-content: space-between;
+}
+
+.solution{
+    margin: 10px 0;
+}
+
+
+
+/* DISTANCE */
+.distance{
+    border-color: green;
+}
+
+.distance h3{
+    color: hsl(120, 70%, 46%);
+}
+
+.distance .refresh-page{
+    all: initial;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: hsla(120, 70%, 46%);
+    padding: 10px 25px;
+    border-radius: 5px;
+    color: white;
+    font-size: smaller;
+}
+.distance .refresh-page:hover{
+    background-color: hsla(120, 70%, 46%, 0.8);
+}
+
+.distance select:focus{
+    border-color: hsl(120, 66%, 70%);
+    text-align: left;
+}
+
+
+
+/* TIME */
+.time{
+    border-color: hsl(39, 95%, 34%);
+}
+
+.time h3{
+    color: hsl(39, 61%, 52%);
+}
+
+.time .refresh-page{
+    all: initial;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: hsl(39, 87%, 39%);
+    padding: 10px 25px;
+    border-radius: 5px;
+    color: white;
+    font-size: smaller;
+}
+.time .refresh-page:hover{
+    background-color: hsla(39, 87%, 39%, 0.8);
+}
+
+.time select:focus{
+    border-color: hsla(39, 89%, 65%);
+    text-align: left;
+}
+
+
+
+/* SPEED */
+.speed{
+    border-color: blue;
+}
+
+.speed h3{
+    color: hsl(240, 70%, 52%);
+}
+
+.speed .refresh-page{
+    all: initial;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: hsl(240, 70%, 52%);
+    padding: 10px 25px;
+    border-radius: 5px;
+    color: white;
+    font-size: smaller;
+}
+.speed .refresh-page:hover{
+    background-color: hsla(240, 70%, 52%, 0.8);
+}
+
+.speed select:focus{
+    border-color: hsl(240, 75%, 62%);
+    text-align: left;
+}
+
+
+
+/* PAGE */
+nav{
+    background-color: black;
+    color: white;
+    margin: 0;
+    display: flex;
+    padding: 15px;
+    font-family: "Poppins", sans-serif;
+    font-size: smaller;
+}
+
+ul{
+    list-style: none;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.functions button{
+    all: unset;
+}
+
+.page h4{
+    width: 50%;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.page button{
+    border: solid 2px;
+    border-color: black;
+    padding: 7px 15px;
+    border-radius: 5px;
+}
+
+#distance-link button{
+    border-color: green;
+    background-color: green;
+}
+
+#speed-link button{
+    border-color: blue;
+    background-color: blue;
+}
+
+#time-link button{
+    border-color: hsl(39, 95%, 34%);;
+    background-color: hsl(39, 95%, 34%);;
+}
