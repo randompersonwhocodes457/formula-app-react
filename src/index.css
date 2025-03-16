@@ -199,14 +199,17 @@ ul{
 #distance-link button{
     border-color: green;
     background-color: green;
+    transition: background-color 0.5s ease-in-out;
 }
 
 #speed-link button{
     border-color: blue;
     background-color: blue;
+    transition: background-color 0.5s ease-in-out;
 }
 
 #time-link button{
-    border-color: hsl(39, 95%, 34%);;
-    background-color: hsl(39, 95%, 34%);;
+    border-color: hsl(39, 95%, 34%);
+    background-color: hsl(39, 95%, 34%);
+    transition: background-color 0.5s ease-in-out;
 }
