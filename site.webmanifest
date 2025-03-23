@@ -1,0 +1,11 @@
+{
+    "name": "Speed, distance and time with React",
+    "short_name": "Speed, distance and time",
+    "icons":
+        [
+            {"src":"./src/assets/icon.png","sizes":"180x180","type":"image/png"}
+        ],
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "display": "standalone"
+}
