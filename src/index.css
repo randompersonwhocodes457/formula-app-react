@@ -216,16 +216,20 @@ ul{
 
 /* MEDIA QUERIES */ 
 @media screen and (max-width: 590px) {
-    .page button{
-        padding: 5px 10px;
-        margin-left: 10px;
-        font-size: 12px;
-    }
     nav{
         padding: 10px;
     }
     .container{
         min-width: 350px;
-        max-width: 390px;
+        max-width: 350px;
+        font-size: medium;
+    }
+    .page h4{
+        width: 0%;
+        height: 0%;
+        display: none;
+    }
+    ul{
+        width: 100%;
     }
 }
